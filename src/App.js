@@ -40,7 +40,7 @@ export default class App extends Component {
     <tr key={ item.action }>
       <td>{ item.action }</td>
       <td>
-        <input type="checkbox" checket={ item.done }
+        <input type="checkbox" checked={ item.done }
           onChange={ () => this.toggleTodo(item) } />
       </td>
     </tr>)
